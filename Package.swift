@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "webkit-url-fix",
+    name: "WebKitUrlFix",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "webkit-url-fix",
-            targets: ["webkit-url-fix"]),
+            name: "WebKitUrlFix",
+            targets: ["WebKitUrlFix"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -19,10 +19,10 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "webkit-url-fix",
+            name: "WebKitUrlFix",
             dependencies: []),
         .testTarget(
-            name: "webkit-url-fixTests",
-            dependencies: ["webkit-url-fix"]),
+            name: "WebKitUrlFixTests",
+            dependencies: ["WebKitUrlFix"]),
     ]
 )

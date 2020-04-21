@@ -1,7 +1,7 @@
 import XCTest
 
-import webkit_url_fixTests
+import WebKitUrlFixTests
 
 var tests = [XCTestCaseEntry]()
-tests += webkit_url_fixTests.allTests()
+tests += WebKitUrlFixTests.allTests()
 XCTMain(tests)
